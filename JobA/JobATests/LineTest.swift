@@ -13,7 +13,7 @@ class LineTest: XCTestCase {
 
 	func testLineLenght() throws {
 		let line = Line(a: Point(x: 1, y: 1), b: Point(x: 4, y: 5))
-		XCTAssertEqual(5.0, line.lenght())
+		XCTAssertEqual(6.0, line.lenght())
 	}
 
 	func testDescription() throws {
