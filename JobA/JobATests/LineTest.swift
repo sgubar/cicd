@@ -16,9 +16,9 @@ class LineTest: XCTestCase {
 		XCTAssertEqual(5.0, line.lenght())
 	}
 
-//	func testDescription() throws {
-//		let line = Line(a: Point(x: 1, y: 1), b: Point(x: 4, y: 5))
-//		XCTAssertEqual("a: {x: 1 - y: 1} - b: {x: 4 - y: 5}", line.description())
-//	}
+	func testDescription() throws {
+		let line = Line(a: Point(x: 1, y: 1), b: Point(x: 4, y: 5))
+		XCTAssertEqual("a: {x: 1 - y: 1} - b: {x: 4 - y: 5}", line.description())
+	}
 }
 
